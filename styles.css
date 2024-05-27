@@ -435,6 +435,8 @@
     font-weight: 400;
     padding: 5px 15px;
     border-radius: 5px;
+    font-style: italic;
+    font-weight: 300;
 }
 .education-all{
     margin-bottom: 80px;
@@ -1142,6 +1144,11 @@ footer a{
         text-align: center;
     }
 
+    .swiper-button-next, .swiper-button-prev{
+        color: #6a59d1;
+        font-size: 2em;
+        margin: 5px;
+    }
     /* ======Contact section=========== */
     .contact .content{
         flex-direction: column;
@@ -1237,6 +1244,9 @@ footer a{
     }
     .contact-card .contact-btn .btn{
         font-size: 0.8rem;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
     }
 } 
 

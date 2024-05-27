@@ -174,27 +174,27 @@ function downloadCV() {
 
 //  contact form actions
 
-// document.getElementById("contactForm").addEventListener("submit", function(event) {
-//     event.preventDefault();
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
 
-//     var name = document.getElementById("name").value;
-//     var email = document.getElementById("email").value;
-//     var subject = document.getElementById("subject").value;
-//     var message = document.getElementById("message").value;
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
 
-//     // Simulate sending email
-//     setTimeout(function() {
-//         document.getElementById("successMessage").style.display = "block";
-//         clearForm();
-//     }, 2000);
-// });
+    // Simulate sending email
+    setTimeout(function() {
+        document.getElementById("successMessage").style.display = "block";
+        clearForm();
+    }, 2000);
+});
 
-// function clearForm() {
-//     document.getElementById("name").value = "";
-//     document.getElementById("email").value = "";
-//     document.getElementById("subject").value = "";
-//     document.getElementById("message").value = "";
-// }
+function clearForm() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("subject").value = "";
+    document.getElementById("message").value = "";
+}
 
 
 
